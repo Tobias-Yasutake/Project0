@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Art</fullName>
+        <default>false</default>
+        <label>Art</label>
+    </customValue>
+    <customValue>
+        <fullName>History</fullName>
+        <default>false</default>
+        <label>History</label>
+    </customValue>
+    <customValue>
+        <fullName>Writing</fullName>
+        <default>false</default>
+        <label>Writing</label>
+    </customValue>
+    <customValue>
+        <fullName>Theater</fullName>
+        <default>false</default>
+        <label>Theater</label>
+    </customValue>
+    <customValue>
+        <fullName>Ninjitsu</fullName>
+        <default>false</default>
+        <label>Ninjitsu</label>
+    </customValue>
+    <customValue>
+        <fullName>Advanced Thermodynamics</fullName>
+        <default>false</default>
+        <label>Advanced Thermodynamics</label>
+    </customValue>
+    <description>What department the record is associated with</description>
+    <masterLabel>Department</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

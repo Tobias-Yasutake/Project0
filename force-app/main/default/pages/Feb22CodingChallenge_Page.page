@@ -1,0 +1,8 @@
+<apex:page controller="Feb22CodingChallenge_CC" lightningStylesheets="true">
+    <apex:pageBlock >
+        <apex:pageBlockTable var="acc" value="{!OppRevByAccount2}" >
+            <apex:column width="300px" headerValue="Account name" value="{!acc.acct}" />
+            <apex:column width="300px" headerValue="Total Opportunity Revenue" value="{!acc.sum}" />
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

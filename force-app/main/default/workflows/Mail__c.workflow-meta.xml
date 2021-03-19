@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Deny</fullName>
+        <field>Insurance_Status__c</field>
+        <literalValue>Denied</literalValue>
+        <name>Deny</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Pending</fullName>
+        <field>Insurance_Status__c</field>
+        <literalValue>Pending</literalValue>
+        <name>Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <tasks>
+        <fullName>Pay_insurance</fullName>
+        <assignedTo>tobias.yasutake@revature.net</assignedTo>
+        <assignedToType>user</assignedToType>
+        <description>The package has been lost and the insurance has been approved. Please pay the insurance amount and update the insurance status to &quot;Paid.&quot;</description>
+        <dueDateOffset>3</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Pay insurance</subject>
+    </tasks>
+</Workflow>
